@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.39.0",
     "@github/local-action": "^6.0.0",
     "@jest/globals": "^30.2.0",
     "@rollup/plugin-commonjs": "^28.0.6",
@@ -56,6 +58,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jest": "^29.0.1",
     "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
     "jest": "^30.2.0",
     "make-coverage-badge": "^1.2.0",
     "prettier": "^3.6.2",
