@@ -45,7 +45,7 @@ it is generated from.
 Install dependencies by running:
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Testing
@@ -53,7 +53,7 @@ npm install
 Ensure all unit tests pass by running:
 
 ```bash
-npm run test
+pnpm test
 ```
 
 Unit tests should exist in the `__tests__` directory. They are powered by
@@ -65,7 +65,7 @@ Any time files in the `src` directory are changed, you should run the following
 command to bundle the TypeScript code into JavaScript:
 
 ```bash
-npm run bundle
+pnpm bundle
 ```
 
 ## General Coding Guidelines
