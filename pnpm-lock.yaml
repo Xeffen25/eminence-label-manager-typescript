@@ -22,6 +22,9 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3.3.1
         version: 3.3.1
+      '@eslint/js':
+        specifier: ^9.39.0
+        version: 9.39.0
       '@github/local-action':
         specifier: ^6.0.0
         version: 6.0.2(eslint@9.39.0)
