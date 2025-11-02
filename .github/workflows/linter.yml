@@ -35,11 +35,11 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version-file: .node-version
-          cache: npm
+          cache: pnpm
 
       - name: Install Dependencies
         id: install
-        run: npm ci
+        run: pnpm ci
 
       - name: Lint Codebase
         id: super-linter
