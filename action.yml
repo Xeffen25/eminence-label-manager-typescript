@@ -1,5 +1,7 @@
 name: Eminence Label Manager Typescript
-description: A GitHub Action that manages the labels of a repository using a config file insuring consistency.
+description:
+  A GitHub Action that manages the labels of a repository using a config file
+  insuring consistency.
 author: Xeffen25
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
@@ -13,7 +15,9 @@ inputs:
     description: Your GitHub token is {{ secrets.GITHUB_TOKEN }}.
     required: true
   mode:
-    description: The mode of operation (add, update or delete). See docs to choose the right one for you.
+    description:
+      The mode of operation (add, update or delete). See docs to choose the
+      right one for you.
     default: update
   manifest:
     description: Path to the labels config file.
